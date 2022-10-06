@@ -74,3 +74,11 @@ function MyDiff()
   endif
 endfunction
 
+" autocomplete
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap < <><left>
